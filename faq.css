@@ -1,0 +1,82 @@
+.col-1{width: 6.25%;}
+.col-2{width: 12.5%;}
+.col-3{width: 18.75%;}
+.col-4{width: 25%;}
+.col-5{width: 31.25%}
+.col-6{width: 37.5%;}
+.col-7{width: 43.75%;}
+.col-8{width: 50%;}
+.col-9{width: 56.25%;}
+.col-10{width:62.5%;}
+.col-11{width:68.75.5%;}
+.col-12{width:75%;}
+.col-13{width:81.25%;}
+.col-14{width:87.5%;}
+.col-15{width:93.75%;}
+.col-16{width:100%;}
+--------------------------------------------------------------------------------
+*{margin: 0;padding: 0;}
+body{font-family: sans-serif; font-weight:  : 400; margin: 0;}
+header{display: flex;}
+.header-main {margin: auto; width: 90%;}
+.items{flex: 1;display: flex; justify-content: space-around;list-style: none; padding: 0px;margin-top: 2 0px;}
+
+.logo{	width: 20%;margin: 0px;}
+
+nav {display: flex;flex: 2;}
+
+.item{ width: 100%;text-decoration: none; color: grey; transition: 150ms;}
+
+.item:hover{
+width: 100%;
+transition: 250ms;
+color: black;
+}
+.logo:hover{
+filter: drop-shadow(0px 5px 3px);
+border-radius: 2px;
+transition: 250ms;
+color: black;
+
+}	
+---------------------------------------------------------------------------------------------------------------------------------
+ .search {
+ 	width: 150px;
+ 	margin-top: 10px;
+  border-radius: 2px;}
+ 	.submit{
+ 		padding: 5px;
+ 		border: 1px;
+ 		margin-top: 10px;
+ 		background: white;
+ 		border-radius: 5px;
+ 		width: 12%;}
+ .main {
+ background-image: url("1.png");
+}
+
+
+
+.qst p{
+border: solid 2px;
+background: white;
+border-radius: 5px;
+border-color: #fff;
+width: 30%;
+color: black;
+font: sans-serif;
+opacity: 1;
+height: 20px;
+box-sizing: border-box;
+}
+.qst p:hover{
+background: transparent;
+font: sans-serif;
+color: #fff;
+width: 60%;
+height: 200px;
+border-color: #fff;
+border-radius: 5px;
+transition: 250ms;
+opacity: 0.5;
+}
