@@ -52,7 +52,7 @@ color: black;
  		margin-top: 10px;
  		background: white;
  		border-radius: 5px;
- 		width: 12%;}
+ 		width: 15%;}
 
 .search:hover{
 padding: 10px;
@@ -61,10 +61,13 @@ width: 35%;}
 padding: 10px;
 width: 35%;}
 
-
+.submit:hover{
+width:12% }
     
-
+.submit:focus{background: transparent;
+color: #fff;}
             main {
+
  background-image: url("1.png");
 height: 200px;
 }
